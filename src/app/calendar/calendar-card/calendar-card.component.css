@@ -29,14 +29,16 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  box-shadow: 10px 10px 5px red;
+  border-radius: 15px;
 }
 
 .gridItemFront  {
-  background-color: greenyellow;
+  background-color: rgb(255, 47, 47);
 }
 
 .gridItemBack {
-  background-color: brown;
+  background-color: rgb(6, 102, 4);
   transform: rotateY(180deg);
 }
 
